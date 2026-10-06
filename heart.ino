@@ -35,8 +35,8 @@ MAX30105 particleSensor;
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-const char* ssid = "CT1P0809";
-const char* password = "Bapgao22";
+const char* ssid = "TEN_WiFi";
+const char* password = "password";
 
 unsigned long previousMillisResultHB = 0;
 const unsigned long intervalResultHB = 1000;        // capnhat manhinh
