@@ -85,8 +85,8 @@ MAX30102 và OLED dùng chung bus I2C (cùng SDA/SCL, cấp nguồn 5v và GND c
 3. Đặt ngón tay lên cảm biến MAX30102 (giữ yên, áp nhẹ).
 4. Bấm **Bắt đầu đo** trên web hoặc nhấn nút vật lý GPIO15.
 5. Xem BPM, đồ thị và thống kê MAX/MIN/AVG. Bấm **Dừng đo** để kết thúc.
+<img width="975" height="434" alt="image" src="https://github.com/user-attachments/assets/e1a36790-8172-46d1-9f79-c0e515651a51" />
 
-> Trang web tải Bootstrap và Google Fonts từ CDN, nên thiết bị mở web cần có Internet để hiển thị đẹp nhất. Chức năng đo vẫn hoạt động nếu CDN không tải được, chỉ giao diện bị đơn giản hơn.
 
 ### Chế độ Offline (không cần WiFi)
 
