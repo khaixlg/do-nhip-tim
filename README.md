@@ -35,7 +35,8 @@ Thiết bị đo nhịp tim (BPM) dùng ESP32s3 + cảm biến MAX30102**, hiể
 | Còi (buzzer) | Loại **active** (điều khiển bằng HIGH/LOW) |
 | Nút nhấn | Kéo xuống GND, dùng `INPUT_PULLUP` |
 
-### Sơ đồ
+---
+### Sơ đồ đấu nối
 
 | Thiết bị | Chân ESP32 |
 |---|---|
