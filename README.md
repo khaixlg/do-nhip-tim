@@ -35,7 +35,7 @@ Thiết bị đo nhịp tim (BPM) dùng ESP32s3 + cảm biến MAX30102**, hiể
 | Còi (buzzer) | Loại **active** (điều khiển bằng HIGH/LOW) |
 | Nút nhấn | Kéo xuống GND, dùng `INPUT_PULLUP` |
 
-### Sơ đồ nối chân
+### Sơ đồ
 
 | Thiết bị | Chân ESP32 |
 |---|---|
@@ -46,6 +46,7 @@ Thiết bị đo nhịp tim (BPM) dùng ESP32s3 + cảm biến MAX30102**, hiể
 | Nút nhấn (về GND) | **GPIO 15** |
 
 MAX30102 và OLED dùng chung bus I2C (cùng SDA/SCL, cấp nguồn 5v và GND chung).
+<img width="974" height="769" alt="image" src="https://github.com/user-attachments/assets/07b10f1c-3423-46f7-b6a6-3d4ac24a0887" />
 
 ---
 
@@ -155,10 +156,3 @@ Cấu hình cảm biến MAX30102 (trong `setup()`): LED brightness `0x1F`, samp
 | BPM nhảy loạn | Giữ tay yên, tránh ánh sáng mạnh chiếu trực tiếp vào cảm biến |
 
 ---
-
-## 🗺️ Hướng phát triển
-
-- [ ] Thêm đo SpO2 từ kênh Red/IR của MAX30102
-- [ ] Lưu lịch sử đo và xuất file CSV
-- [ ] Đưa thông tin WiFi ra file cấu hình riêng hoặc dùng WiFiManager
-- [ ] Hiển thị đồ thị tín hiệu IR thật trên web
