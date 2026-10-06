@@ -57,8 +57,8 @@ MAX30102 và OLED dùng chung bus I2C (cùng SDA/SCL, cấp nguồn 5v và GND c
 - `Adafruit SSD1306`
 - `Arduino_JSON`
 - `SparkFun MAX3010x Pulse and Proximity Sensor Library` (cung cấp `MAX30105.h` và `heartRate.h`)
-- AsyncTCP by ESP32Async
-- ESPAsyncWebServer by ESP32Async
+- `AsyncTCP by ESP32Async`
+- `ESPAsyncWebServer by ESP32Async`
 ---
 
 ## 🚀 Cài đặt & nạp code
